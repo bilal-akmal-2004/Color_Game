@@ -66,3 +66,11 @@ body {
     font-size: 20px;
     align-items: end;
   }
+  @media (max-width: 660px) {
+    .gameOverH1{
+        font-size: 80px;
+    }
+    .scoreGameOver{
+        font-size: 50px;
+    }
+  }
