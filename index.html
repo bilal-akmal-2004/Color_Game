@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="gameOver">
+      <div class="gameOverBox">
+        <div class="closeGameDiv">
+          <button onClick="closeGame()">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <h1 class="gameOverH1">Game Over !</h1>
+        <h2 class="scoreGameOver"></h2>
+        <h2>Press cross to play again !</h2>
+      </div>
+    </div>
+    <div class="main">
+      <div class="head">
+        <h1>Match The Color !</h1>
+        <div class="match-color-main"><div class="match"></div></div>
+        <h2 class="life"></h2>
+        <h2 class="score"></h2>
+      </div>
+      <div class="body"></div>
+    </div>
+    <!-- <button onclick="toMatch(event)"></button> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
