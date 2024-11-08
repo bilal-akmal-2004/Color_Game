@@ -50,9 +50,11 @@ body {
   }
   .gameOverH1{
     font-size: 100px;
+    text-transform: uppercase;
   }
   .scoreGameOver{
     font-size: 70px;
+    text-transform: capitalize;
   }
   .closeGameDiv{
     width: 100%;
